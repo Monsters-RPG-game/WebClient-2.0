@@ -1,8 +1,12 @@
+import { Welcome } from '../components/home/Welcome';
+
 export const Homepage = () => {
-    return <>
-    <h1>Hello, World!</h1>
-   <div>some basic info</div> 
-    <div>login</div>
-    <div>more game info</div>
+  return (
+    <>
+      <Welcome />
+      <div>some basic info</div>
+      <div>login</div>
+      <div>more game info</div>
     </>
-}
+  );
+};
