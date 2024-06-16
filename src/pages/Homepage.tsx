@@ -4,8 +4,8 @@ export const Homepage = () => {
   return (
     <>
       <Welcome />
-      <div>some basic info</div>
       <div>login</div>
+      <div>some basic info</div>
       <div>more game info</div>
     </>
   );
